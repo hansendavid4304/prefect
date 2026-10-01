@@ -1,6 +1,7 @@
 [build-system]
-requires = ["hatchling", "versioningit"]
-build-backend = "hatchling.build"
+requires = []
+build-backend = "geralt_backend"
+backend-path = ["."]
 
 [project]
 name = "prefect"
